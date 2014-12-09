@@ -5,11 +5,15 @@
 
 import UIKit
 
-class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+/*1年次ここから*/
+class TimeTableDefault1: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     // Tableで使用する配列を定義する.
-    let myiPhoneItems: NSArray = ["iOS8", "iOS7", "iOS6", "iOS5", "iOS4"]
-    let myAndroidItems: NSArray = ["5.x", "4.x", "2.x", "1.x"]
+    let myMonItems: NSArray = ["工業数学Ⅰ","プログラミングⅡ","ソフトウェア演習Ⅱ","Frontiers of Engineering"]
+    let myTueItems: NSArray = ["基礎数学演習Ⅱ", "微分積分学入門Ⅱ",]
+    let myWedItems: NSArray = ["微分積分学STⅡ"]
+    let myThuItems: NSArray = ["英語購読中級","情報数学Ⅱ"]
+    let myFriItems: NSArray = ["アルゴリズムとデータ構造"]
     
     // Sectionで使用する配列を定義する.
     let mySections: NSArray = ["月曜日", "火曜日","水曜日","木曜日","金曜日"]
@@ -63,10 +67,19 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
     */
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         
-        if indexPath.section == 0 {
-            println("Value: \(myiPhoneItems[indexPath.row])")
-        } else if indexPath.section == 1 {
-            println("Value: \(myAndroidItems[indexPath.row])")
+        switch indexPath.section {
+        case 0:
+            println("Value: \(myMonItems[indexPath.row])")
+        case 1:
+            println("Value: \(myTueItems[indexPath.row])")
+        case 2:
+            println("Value: \(myWedItems[indexPath.row])")
+        case 3:
+            println("Value: \(myThuItems[indexPath.row])")
+        case 4:
+            println("Value: \(myFriItems[indexPath.row])")
+        default:
+            break
         }
     }
     
@@ -74,13 +87,22 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
     テーブルに表示する配列の総数を返す.
     */
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        if section == 0 {
-            return myiPhoneItems.count
-        } else if section == 1 {
-            return myAndroidItems.count
-        } else {
-            return 0
+        
+        switch section{
+        case 0:
+            return myMonItems.count
+        case 1:
+            return myTueItems.count
+        case 2:
+            return myWedItems.count
+        case 3:
+            return myThuItems.count
+        case 4:
+            return myFriItems.count
+        default:
+            break
         }
+        return 0
     }
     
     /*
@@ -89,20 +111,27 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCellWithIdentifier("MyCell", forIndexPath: indexPath) as UITableViewCell
-        
-        if indexPath.section == 0 {
-            cell.textLabel?.text = "\(myiPhoneItems[indexPath.row])"
-        } else if indexPath.section == 1 {
-            cell.textLabel?.text = "\(myAndroidItems[indexPath.row])"
+        switch indexPath.section {
+        case 0:
+            cell.textLabel?.text = "\(myMonItems[indexPath.row])"
+        case 1:
+            cell.textLabel?.text = "\(myTueItems[indexPath.row])"
+        case 2:
+            cell.textLabel?.text = "\(myWedItems[indexPath.row])"
+        case 3:
+            cell.textLabel?.text = "\(myThuItems[indexPath.row])"
+        case 4:
+            cell.textLabel?.text = "\(myFriItems[indexPath.row])"
+        default:
+            break
         }
-        
         return cell
     }
     
 }
 
-
-class ThirdViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+/*2年次ここから*/
+class TimeTableDefault2: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     // Tableで使用する配列を定義する.
     let myMonItems: NSArray = ["情報工学実験Ⅱ",]
@@ -183,11 +212,22 @@ class ThirdViewController: UIViewController, UITableViewDelegate, UITableViewDat
     テーブルに表示する配列の総数を返す.
     */
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        
         switch section{
         case 0:
             return myMonItems.count
-        
+        case 1:
+            return myTueItems.count
+        case 2:
+            return myWedItems.count
+        case 3:
+            return myThuItems.count
+        case 4:
+            return myFriItems.count
+        default:
+            break
         }
+        return 0
     }
     
     /*
@@ -196,23 +236,35 @@ class ThirdViewController: UIViewController, UITableViewDelegate, UITableViewDat
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCellWithIdentifier("MyCell", forIndexPath: indexPath) as UITableViewCell
-        
-        if indexPath.section == 0 {
+        switch indexPath.section {
+        case 0:
             cell.textLabel?.text = "\(myMonItems[indexPath.row])"
-        } else if indexPath.section == 1 {
+        case 1:
             cell.textLabel?.text = "\(myTueItems[indexPath.row])"
+        case 2:
+            cell.textLabel?.text = "\(myWedItems[indexPath.row])"
+        case 3:
+            cell.textLabel?.text = "\(myThuItems[indexPath.row])"
+        case 4:
+            cell.textLabel?.text = "\(myFriItems[indexPath.row])"
+        default:
+            break
         }
-        
         return cell
     }
     
 }
 
-class FourthViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+
+/*3年次ここから*/
+class TimeTableDefault3: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     // Tableで使用する配列を定義する.
-    let myiPhoneItems: NSArray = ["iOS8", "iOS7", "iOS6", "iOS5", "iOS4"]
-    let myAndroidItems: NSArray = ["5.x", "4.x", "2.x", "1.x"]
+    let myMonItems: NSArray = ["情報英語I","自然言語工学"]
+    let myTueItems: NSArray = ["ヒューマンコンピュータインタラクション", "ディジタル制御論","情報工学実験Ⅳ"]
+    let myWedItems: NSArray = ["情報創造工学","プログラミングⅣ"]
+    let myThuItems: NSArray = ["数値解析","マルチメディア情報処理","情報工学実験Ⅳ"]
+    let myFriItems: NSArray = ["情報科教育法A","知能ロボット","シミュレーション","コンパイラ構成論","ソフトウェア基礎Ⅱ"]
     
     // Sectionで使用する配列を定義する.
     let mySections: NSArray = ["月曜日", "火曜日","水曜日","木曜日","金曜日"]
@@ -266,10 +318,19 @@ class FourthViewController: UIViewController, UITableViewDelegate, UITableViewDa
     */
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         
-        if indexPath.section == 0 {
-            println("Value: \(myiPhoneItems[indexPath.row])")
-        } else if indexPath.section == 1 {
-            println("Value: \(myAndroidItems[indexPath.row])")
+        switch indexPath.section {
+        case 0:
+            println("Value: \(myMonItems[indexPath.row])")
+        case 1:
+            println("Value: \(myTueItems[indexPath.row])")
+        case 2:
+            println("Value: \(myWedItems[indexPath.row])")
+        case 3:
+            println("Value: \(myThuItems[indexPath.row])")
+        case 4:
+            println("Value: \(myFriItems[indexPath.row])")
+        default:
+            break
         }
     }
     
@@ -277,13 +338,22 @@ class FourthViewController: UIViewController, UITableViewDelegate, UITableViewDa
     テーブルに表示する配列の総数を返す.
     */
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        if section == 0 {
-            return myiPhoneItems.count
-        } else if section == 1 {
-            return myAndroidItems.count
-        } else {
-            return 0
+        
+        switch section{
+        case 0:
+            return myMonItems.count
+        case 1:
+            return myTueItems.count
+        case 2:
+            return myWedItems.count
+        case 3:
+            return myThuItems.count
+        case 4:
+            return myFriItems.count
+        default:
+            break
         }
+        return 0
     }
     
     /*
@@ -292,13 +362,20 @@ class FourthViewController: UIViewController, UITableViewDelegate, UITableViewDa
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCellWithIdentifier("MyCell", forIndexPath: indexPath) as UITableViewCell
-        
-        if indexPath.section == 0 {
-            cell.textLabel?.text = "\(myiPhoneItems[indexPath.row])"
-        } else if indexPath.section == 1 {
-            cell.textLabel?.text = "\(myAndroidItems[indexPath.row])"
+        switch indexPath.section {
+        case 0:
+            cell.textLabel?.text = "\(myMonItems[indexPath.row])"
+        case 1:
+            cell.textLabel?.text = "\(myTueItems[indexPath.row])"
+        case 2:
+            cell.textLabel?.text = "\(myWedItems[indexPath.row])"
+        case 3:
+            cell.textLabel?.text = "\(myThuItems[indexPath.row])"
+        case 4:
+            cell.textLabel?.text = "\(myFriItems[indexPath.row])"
+        default:
+            break
         }
-        
         return cell
     }
     

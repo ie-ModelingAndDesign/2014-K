@@ -59,7 +59,7 @@ class ViewController: UIViewController {
     func onClickMyButton1(sender: UIButton){
         
         // 遷移するViewを定義する.
-        let mySecondViewController: UIViewController = SecondViewController()
+        let mySecondViewController: UIViewController = TimeTableDefault1()
         
         // アニメーションを設定する.
         mySecondViewController.modalTransitionStyle = UIModalTransitionStyle.PartialCurl
@@ -72,7 +72,7 @@ class ViewController: UIViewController {
     func onClickMyButton2(sender: UIButton){
         
         // 遷移するViewを定義する.
-        let mySecondViewController: UIViewController = ThirdViewController()
+        let mySecondViewController: UIViewController = TimeTableDefault2()
         
         // アニメーションを設定する.
         mySecondViewController.modalTransitionStyle = UIModalTransitionStyle.PartialCurl
@@ -85,7 +85,7 @@ class ViewController: UIViewController {
     func onClickMyButton3(sender: UIButton){
         
         // 遷移するViewを定義する.
-        let mySecondViewController: UIViewController = FourthViewController()
+        let mySecondViewController: UIViewController = TimeTableDefault3()
         
         // アニメーションを設定する.
         mySecondViewController.modalTransitionStyle = UIModalTransitionStyle.PartialCurl
