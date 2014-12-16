@@ -69,15 +69,50 @@ class TimeTableDefault1: UIViewController, UITableViewDelegate, UITableViewDataS
         
         switch indexPath.section {
         case 0:
-            println("Value: \(myMonItems[indexPath.row])")
+            // 遷移するViewを定義する.
+            let mySecondViewController: UIViewController = MapView()
+            
+            // アニメーションを設定する.
+            mySecondViewController.modalTransitionStyle = UIModalTransitionStyle.PartialCurl
+            
+            // Viewの移動する.
+            self.presentViewController(mySecondViewController, animated: true, completion: nil)
         case 1:
-            println("Value: \(myTueItems[indexPath.row])")
+            // 遷移するViewを定義する.
+            let mySecondViewController: UIViewController = MapView()
+            
+            // アニメーションを設定する.
+            mySecondViewController.modalTransitionStyle = UIModalTransitionStyle.PartialCurl
+            
+            // Viewの移動する.
+            self.presentViewController(mySecondViewController, animated: true, completion: nil)
         case 2:
-            println("Value: \(myWedItems[indexPath.row])")
+            // 遷移するViewを定義する.
+            let mySecondViewController: UIViewController = MapView()
+            
+            // アニメーションを設定する.
+            mySecondViewController.modalTransitionStyle = UIModalTransitionStyle.PartialCurl
+            
+            // Viewの移動する.
+            self.presentViewController(mySecondViewController, animated: true, completion: nil)
         case 3:
-            println("Value: \(myThuItems[indexPath.row])")
+            // 遷移するViewを定義する.
+            let mySecondViewController: UIViewController = MapView()
+            
+            // アニメーションを設定する.
+            mySecondViewController.modalTransitionStyle = UIModalTransitionStyle.PartialCurl
+            
+            // Viewの移動する.
+            self.presentViewController(mySecondViewController, animated: true, completion: nil)
         case 4:
-            println("Value: \(myFriItems[indexPath.row])")
+            // 遷移するViewを定義する.
+            let mySecondViewController: UIViewController = MapView()
+            
+            // アニメーションを設定する.
+            mySecondViewController.modalTransitionStyle = UIModalTransitionStyle.PartialCurl
+            
+            // Viewの移動する.
+            self.presentViewController(mySecondViewController, animated: true, completion: nil)
         default:
             break
         }
