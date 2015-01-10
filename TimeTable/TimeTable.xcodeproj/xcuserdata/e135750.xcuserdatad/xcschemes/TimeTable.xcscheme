@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6DED85191A2FF798000013DD"
-               BuildableName = "TableView.app"
-               BlueprintName = "TableView"
-               ReferencedContainer = "container:TableView.xcodeproj">
+               BlueprintIdentifier = "6D4E8AF81A60EB0D00E9E80A"
+               BuildableName = "TimeTable.app"
+               BlueprintName = "TimeTable"
+               ReferencedContainer = "container:TimeTable.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6DED852E1A2FF798000013DD"
-               BuildableName = "TableViewTests.xctest"
-               BlueprintName = "TableViewTests"
-               ReferencedContainer = "container:TableView.xcodeproj">
+               BlueprintIdentifier = "6D4E8B101A60EB0D00E9E80A"
+               BuildableName = "TimeTableTests.xctest"
+               BlueprintName = "TimeTableTests"
+               ReferencedContainer = "container:TimeTable.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6DED852E1A2FF798000013DD"
-               BuildableName = "TableViewTests.xctest"
-               BlueprintName = "TableViewTests"
-               ReferencedContainer = "container:TableView.xcodeproj">
+               BlueprintIdentifier = "6D4E8B101A60EB0D00E9E80A"
+               BuildableName = "TimeTableTests.xctest"
+               BlueprintName = "TimeTableTests"
+               ReferencedContainer = "container:TimeTable.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6DED85191A2FF798000013DD"
-            BuildableName = "TableView.app"
-            BlueprintName = "TableView"
-            ReferencedContainer = "container:TableView.xcodeproj">
+            BlueprintIdentifier = "6D4E8AF81A60EB0D00E9E80A"
+            BuildableName = "TimeTable.app"
+            BlueprintName = "TimeTable"
+            ReferencedContainer = "container:TimeTable.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -75,10 +75,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6DED85191A2FF798000013DD"
-            BuildableName = "TableView.app"
-            BlueprintName = "TableView"
-            ReferencedContainer = "container:TableView.xcodeproj">
+            BlueprintIdentifier = "6D4E8AF81A60EB0D00E9E80A"
+            BuildableName = "TimeTable.app"
+            BlueprintName = "TimeTable"
+            ReferencedContainer = "container:TimeTable.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -93,10 +93,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6DED85191A2FF798000013DD"
-            BuildableName = "TableView.app"
-            BlueprintName = "TableView"
-            ReferencedContainer = "container:TableView.xcodeproj">
+            BlueprintIdentifier = "6D4E8AF81A60EB0D00E9E80A"
+            BuildableName = "TimeTable.app"
+            BlueprintName = "TimeTable"
+            ReferencedContainer = "container:TimeTable.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

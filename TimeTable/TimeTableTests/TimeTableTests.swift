@@ -1,15 +1,15 @@
 //
-//  TableViewTests.swift
-//  TableViewTests
+//  TimeTableTests.swift
+//  TimeTableTests
 //
-//  Created by Sonoda Seiya on 2014/12/04.
-//  Copyright (c) 2014年 Sonoda Seiya. All rights reserved.
+//  Created by Sonoda Seiya on 2015/01/10.
+//  Copyright (c) 2015年 Sonoda Seiya. All rights reserved.
 //
 
 import UIKit
 import XCTest
 
-class TableViewTests: XCTestCase {
+class TimeTableTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
