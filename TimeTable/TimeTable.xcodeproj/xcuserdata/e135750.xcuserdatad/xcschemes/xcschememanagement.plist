@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>TableView.xcscheme</key>
+		<key>TimeTable.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>6DED85191A2FF798000013DD</key>
+		<key>6D4E8AF81A60EB0D00E9E80A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6DED852E1A2FF798000013DD</key>
+		<key>6D4E8B101A60EB0D00E9E80A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
