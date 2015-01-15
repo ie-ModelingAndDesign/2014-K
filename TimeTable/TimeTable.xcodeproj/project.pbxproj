@@ -14,6 +14,7 @@
 		6D4E8B091A60EB0D00E9E80A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D4E8B081A60EB0D00E9E80A /* Images.xcassets */; };
 		6D4E8B0C1A60EB0D00E9E80A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D4E8B0A1A60EB0D00E9E80A /* LaunchScreen.xib */; };
 		6D4E8B181A60EB0D00E9E80A /* TimeTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4E8B171A60EB0D00E9E80A /* TimeTableTests.swift */; };
+		6D4E8B221A60FA1E00E9E80A /* newsie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4E8B211A60FA1E00E9E80A /* newsie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		6D4E8B111A60EB0D00E9E80A /* TimeTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D4E8B161A60EB0D00E9E80A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D4E8B171A60EB0D00E9E80A /* TimeTableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableTests.swift; sourceTree = "<group>"; };
+		6D4E8B211A60FA1E00E9E80A /* newsie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newsie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				6D4E8AFE1A60EB0D00E9E80A /* AppDelegate.swift */,
 				6D4E8B031A60EB0D00E9E80A /* ViewController.swift */,
 				6D4E8B051A60EB0D00E9E80A /* Main.storyboard */,
+				6D4E8B211A60FA1E00E9E80A /* newsie.swift */,
 				6D4E8B081A60EB0D00E9E80A /* Images.xcassets */,
 				6D4E8B0A1A60EB0D00E9E80A /* LaunchScreen.xib */,
 				6D4E8B001A60EB0D00E9E80A /* TimeTable.xcdatamodeld */,
@@ -217,6 +220,7 @@
 			files = (
 				6D4E8B041A60EB0D00E9E80A /* ViewController.swift in Sources */,
 				6D4E8AFF1A60EB0D00E9E80A /* AppDelegate.swift in Sources */,
+				6D4E8B221A60FA1E00E9E80A /* newsie.swift in Sources */,
 				6D4E8B021A60EB0D00E9E80A /* TimeTable.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,7 +345,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TimeTable/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -352,7 +355,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TimeTable/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -411,7 +413,6 @@
 				6D4E8B1D1A60EB0D00E9E80A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 		6D4E8B1E1A60EB0D00E9E80A /* Build configuration list for PBXNativeTarget "TimeTableTests" */ = {
 			isa = XCConfigurationList;
@@ -420,7 +421,6 @@
 				6D4E8B201A60EB0D00E9E80A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
