@@ -14,6 +14,7 @@
 		6D2A90BE1A78AA4500D8FF2B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D2A90BD1A78AA4500D8FF2B /* Images.xcassets */; };
 		6D2A90C11A78AA4500D8FF2B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D2A90BF1A78AA4500D8FF2B /* LaunchScreen.xib */; };
 		6D2A90CD1A78AA4500D8FF2B /* ModelingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2A90CC1A78AA4500D8FF2B /* ModelingTests.swift */; };
+		6D3C89E31A78F8D10097971E /* addnewsubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3C89E21A78F8D10097971E /* addnewsubject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		6D2A90C61A78AA4500D8FF2B /* ModelingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModelingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D2A90CB1A78AA4500D8FF2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D2A90CC1A78AA4500D8FF2B /* ModelingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelingTests.swift; sourceTree = "<group>"; };
+		6D3C89E21A78F8D10097971E /* addnewsubject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addnewsubject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				6D2A90BF1A78AA4500D8FF2B /* LaunchScreen.xib */,
 				6D2A90B51A78AA4500D8FF2B /* Modeling.xcdatamodeld */,
 				6D2A90B11A78AA4500D8FF2B /* Supporting Files */,
+				6D3C89E21A78F8D10097971E /* addnewsubject.swift */,
 			);
 			path = Modeling;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D2A90B91A78AA4500D8FF2B /* ViewController.swift in Sources */,
+				6D3C89E31A78F8D10097971E /* addnewsubject.swift in Sources */,
 				6D2A90B71A78AA4500D8FF2B /* Modeling.xcdatamodeld in Sources */,
 				6D2A90B41A78AA4500D8FF2B /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +413,7 @@
 				6D2A90D21A78AA4500D8FF2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6D2A90D31A78AA4500D8FF2B /* Build configuration list for PBXNativeTarget "ModelingTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				6D2A90D51A78AA4500D8FF2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

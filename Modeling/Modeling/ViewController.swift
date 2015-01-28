@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -282,8 +282,13 @@ class ViewController: UIViewController {
     }
     
     
+    @IBOutlet weak var Segue: UIBarButtonItem!
     
-    
-    
+    @IBAction func Segue(segue: UIStoryboardSegue ,sender: AnyObject) {
+        self.performSegueWithIdentifier("Segue", sender: nil)
+    }
+    @IBAction func AddButton(segue: UIStoryboardSegue){
+        println("俺は帰ってきた")
+    }
 }
 
