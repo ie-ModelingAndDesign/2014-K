@@ -181,23 +181,83 @@ class ViewController: UIViewController {
     
     
     @IBAction func One(sender: AnyObject) {
-     println("1")
+        // UIAlertControllerを作成する.
+        let myAlert = UIAlertController(title: "1限", message: "8:30~10:00", preferredStyle: .Alert)
+        
+        // OKのアクションを作成する.
+        let myOkAction = UIAlertAction(title: "OK", style: .Default) { action in
+            println("1限")
+        }
+        
+        // OKのActionを追加する.
+        myAlert.addAction(myOkAction)
+        
+        // UIAlertを発動する.
+        presentViewController(myAlert, animated: true, completion: nil)
     }
     
     @IBAction func Two(sender: AnyObject) {
-     println("2")
+        // UIAlertControllerを作成する.
+        let myAlert = UIAlertController(title: "2限", message: "10:20~11:50", preferredStyle: .Alert)
+        
+        // OKのアクションを作成する.
+        let myOkAction = UIAlertAction(title: "OK", style: .Default) { action in
+            println("2限")
+        }
+        
+        // OKのActionを追加する.
+        myAlert.addAction(myOkAction)
+        
+        // UIAlertを発動する.
+        presentViewController(myAlert, animated: true, completion: nil)
     }
     
     @IBAction func Three(sender: AnyObject) {
-     println("3")
+        // UIAlertControllerを作成する.
+        let myAlert = UIAlertController(title: "3限", message: "12:50~14:20", preferredStyle: .Alert)
+        
+        // OKのアクションを作成する.
+        let myOkAction = UIAlertAction(title: "OK", style: .Default) { action in
+            println("3限")
+        }
+        
+        // OKのActionを追加する.
+        myAlert.addAction(myOkAction)
+        
+        // UIAlertを発動する.
+        presentViewController(myAlert, animated: true, completion: nil)
     }
     
     @IBAction func Four(sender: AnyObject) {
-     println("4")
+        // UIAlertControllerを作成する.
+        let myAlert = UIAlertController(title: "4限", message: "14:40~16:10", preferredStyle: .Alert)
+        
+        // OKのアクションを作成する.
+        let myOkAction = UIAlertAction(title: "OK", style: .Default) { action in
+            println("4限")
+        }
+        
+        // OKのActionを追加する.
+        myAlert.addAction(myOkAction)
+        
+        // UIAlertを発動する.
+        presentViewController(myAlert, animated: true, completion: nil)
     }
     
     @IBAction func Five(sender: AnyObject) {
-     println("5")
+        // UIAlertControllerを作成する.
+        let myAlert = UIAlertController(title: "5限", message: "16:10~17:50", preferredStyle: .Alert)
+        
+        // OKのアクションを作成する.
+        let myOkAction = UIAlertAction(title: "OK", style: .Default) { action in
+            println("5限")
+        }
+        
+        // OKのActionを追加する.
+        myAlert.addAction(myOkAction)
+        
+        // UIAlertを発動する.
+        presentViewController(myAlert, animated: true, completion: nil)
     }
     
     
