@@ -14,7 +14,7 @@ class JsonSubject:UIViewController,UIPickerViewDelegate, UIPickerViewDataSource 
     @IBOutlet weak var PickSubject: UIPickerView!
     
     @IBOutlet weak var AddButton: UIButton!
-    @IBOutlet weak var CancelButton: UIButton!
+    //@IBOutlet weak var CancelButton: UIButton!
 
     @IBOutlet weak var Teacher: UILabel!
     @IBOutlet weak var Room: UILabel!
@@ -27,6 +27,11 @@ class JsonSubject:UIViewController,UIPickerViewDelegate, UIPickerViewDataSource 
     var date:String = ""
     var week:String = ""
     var label: UILabel = UILabel()
+    
+    var selectedSubject = ""
+    var selectedTeacher = ""
+    var selectedRoom = ""
+    var selectedUrl = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -76,16 +81,19 @@ class JsonSubject:UIViewController,UIPickerViewDelegate, UIPickerViewDataSource 
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         println("row: \(row)")
         println("Subject: \(SubjectPick[row])")
+        self.selectedSubject = SubjectPick[row]
         println("Teacher: \(TeacherPick[row])")
+        self.selectedTeacher = TeacherPick[row]
         println("Room: \(RoomPick[row])")
+        self.selectedRoom = RoomPick[row]
         println("Url: \(UrlPick[row])")
+        self.selectedUrl = UrlPick[row]
         
         Teacher.text=TeacherPick[row]
         Room.text=RoomPick[row]
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
-        
     }
     
     @IBAction func AddButton(sender: AnyObject) {
@@ -99,6 +107,13 @@ class JsonSubject:UIViewController,UIPickerViewDelegate, UIPickerViewDataSource 
         }
         */
     }
+    /*
+    @IBAction func CancelButton(sender: UIStoryboardSegue) {
+        println("Backします")
+    }
+    */
+    
+    
     
     
 }

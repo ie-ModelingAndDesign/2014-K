@@ -12,6 +12,28 @@ class ViewController: UIViewController {
     
     var matrix:[[String]]=[["","","","","","",""],["","","","","","",""],["","","","","","",""],["","","","","","",""],["","","","","","",""],["","","","","","",""]]
     
+    var selectedDate  = ""
+    var selectedWeek  = ""
+    var selectedLabel = UILabel()
+    var selectedSubject = ""
+    var selectedTeacher = ""
+    var selectedRoom = ""
+    var selectedUrl = ""
+    
+    var Mon2Subject = ""
+    var Mon3Subject = ""
+    var Mon4Subject = ""
+    var Mon5Subject = ""
+    var Mon6Subject = ""
+    var Mon7Subject = ""
+    
+    var Subject = Dictionary<String,String>()
+    var Teacher = Dictionary<String,String>()
+    var Room = Dictionary<String,String>()
+    var Url = Dictionary<String,String>()
+    var Label = Dictionary<String,UILabel>()
+    
+    var info = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -121,10 +143,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var Fri6L: UILabel!
     @IBOutlet weak var Fri7L: UILabel!
     
-    
-    
-    
-    var date = 0
     
     @IBAction func Mon1(sender: AnyObject) {
         pushedButton("Mon1",week: "Mon",label:Mon1L)
@@ -382,31 +400,73 @@ class ViewController: UIViewController {
         println("俺は帰ってきた")
     }
     
-
-    
     func pushedButton(date:String,week:String,label:UILabel){
         println(date)
         println(week)
         if label.text == ""{
             println("空です。")
-            //let myJsonSubject: UIViewController = JsonSubject()
-            //self.presentViewController(JsonSubject(), animated: true, completion: nil)
-            func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
-                if (segue.identifier == "SubjectSegue") {
-                    let AddSubject: JsonSubject = segue.destinationViewController as JsonSubject
-                    AddSubject.date = date
-                    AddSubject.week = week
-                    AddSubject.label = label
-                    println(date)
-                    println(week)
-                    println(label)
-                }
-                
-            }
-        }else{
+            self.selectedDate  = date
+            self.selectedWeek  = week
+            self.selectedLabel = label
+            self.performSegueWithIdentifier("SubjectSegue", sender: nil)
+            
+        } else{
             println("からじゃないです。")
+            // インスタンス生成　styleはActionSheet.
+            var myAlert = UIAlertController(title: Subject[date], message: Teacher[date]! + "," + Room[date]!, preferredStyle: UIAlertControllerStyle.ActionSheet)
+            
+            // アクションを生成.
+            let myAction_1 = UIAlertAction(title: "Map", style: UIAlertActionStyle.Default, handler: {
+                (action: UIAlertAction!) in
+                println("Hello")
+            })
+            
+            let myAction_2 = UIAlertAction(title: "Delete", style: UIAlertActionStyle.Destructive, handler: {
+                (action: UIAlertAction!) in
+                println("delete")
+                self.Subject.removeValueForKey(date)
+                self.Teacher.removeValueForKey(date)
+                self.Room.removeValueForKey(date)
+                self.Url.removeValueForKey(date)
+            })
+            
+            let myAction_3 = UIAlertAction(title: "Cancel", style: UIAlertActionStyle.Cancel, handler: {
+                (action: UIAlertAction!) in
+                println("no")
+            })
+            
+            // アクションを追加.
+            myAlert.addAction(myAction_1)
+            myAlert.addAction(myAction_2)
+            myAlert.addAction(myAction_3)
+            
+            self.presentViewController(myAlert, animated: true, completion: nil)
         }
-        
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
+        if (segue.identifier == "SubjectSegue") {
+            let AddSubject: JsonSubject = segue.destinationViewController as JsonSubject
+            AddSubject.date  = self.selectedDate
+            AddSubject.week  = self.selectedWeek
+            AddSubject.label = self.selectedLabel
+            
+        }
+    }
+    
+    @IBAction func backFromJSONSubject(segue:UIStoryboardSegue){
+        var sourceViewController = segue.sourceViewController as? JsonSubject
+        if let viewController = sourceViewController {
+            self.selectedLabel.text = viewController.selectedSubject
+            self.selectedSubject = viewController.selectedSubject
+            self.selectedTeacher = viewController.selectedTeacher
+            self.selectedRoom = viewController.selectedRoom
+            self.selectedUrl = viewController.selectedUrl
+            Subject[viewController.date] = selectedSubject
+            Teacher[viewController.date] = selectedTeacher
+            Room[viewController.date] = selectedRoom
+            Url[viewController.date] = selectedUrl
+            
+        }
     }
 }
-

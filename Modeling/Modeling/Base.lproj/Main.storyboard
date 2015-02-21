@@ -115,7 +115,6 @@
                                 </state>
                                 <connections>
                                     <action selector="Mon1:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="yTZ-nu-zVZ"/>
-                                    <segue destination="a9h-VK-Dw1" kind="presentation" identifier="SubjectSegue" id="n8v-0f-dbP"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="Tue1" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E5l-sD-wZw">
@@ -807,13 +806,7 @@
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                     </view>
-                    <navigationItem key="navigationItem" title="時間割" id="jzo-DP-twB">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="GFL-Tn-Hul">
-                            <connections>
-                                <action selector="Segue:" destination="vXZ-lx-hvc" id="Lvu-93-QON"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="時間割" id="8F1-oj-Y60"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="Blank" destination="8rq-vF-Zur" id="gWE-HZ-jvf"/>
@@ -849,7 +842,6 @@
                         <outlet property="Mon7" destination="eg0-ym-RJA" id="6SA-XD-4Dk"/>
                         <outlet property="Mon7L" destination="yIl-wb-g5V" id="zJA-u2-nMr"/>
                         <outlet property="One" destination="sbq-eI-AH5" id="SOk-6q-aLp"/>
-                        <outlet property="Segue" destination="GFL-Tn-Hul" id="AGf-0w-hcX"/>
                         <outlet property="Seven" destination="x3Y-3L-00w" id="ps7-4c-3Gz"/>
                         <outlet property="Six" destination="zCm-8I-7Q2" id="NS8-c9-MLT"/>
                         <outlet property="Three" destination="Qb5-nx-ppu" id="4QO-rx-Pqb"/>
@@ -899,6 +891,7 @@
                         <outlet property="Wed6L" destination="Ldv-nq-zc3" id="pBk-oE-0zg"/>
                         <outlet property="Wed7" destination="UO3-SR-fiw" id="CDw-hd-lBL"/>
                         <outlet property="Wed7L" destination="NpJ-WY-bhn" id="Wx3-Wv-bVK"/>
+                        <segue destination="a9h-VK-Dw1" kind="presentation" identifier="SubjectSegue" id="aBs-2D-UWh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
@@ -920,22 +913,6 @@
                             <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OJ6-kL-iof">
                                 <rect key="frame" x="0.0" y="259" width="375" height="162"/>
                             </pickerView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lX8-dy-eok">
-                                <rect key="frame" x="251" y="463" width="30" height="30"/>
-                                <state key="normal" title="Add">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="AddButton:" destination="a9h-VK-Dw1" eventType="touchUpInside" id="uij-vx-j7b"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t2Q-L5-rt2">
-                                <rect key="frame" x="94" y="463" width="48" height="30"/>
-                                <state key="normal" title="Cancel">
-                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mar-EF-zdo">
                                 <rect key="frame" x="94" y="526" width="187" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -966,19 +943,29 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lX8-dy-eok">
+                                <rect key="frame" x="172" y="447" width="30" height="30"/>
+                                <state key="normal" title="Add">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="AddButton:" destination="a9h-VK-Dw1" eventType="touchUpInside" id="uij-vx-j7b"/>
+                                    <segue destination="teP-Er-ga8" kind="unwind" unwindAction="backFromJSONSubject:" id="OO2-6O-xsy"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
-                        <outlet property="AddButton" destination="lX8-dy-eok" id="xWK-bN-aap"/>
-                        <outlet property="CancelButton" destination="t2Q-L5-rt2" id="I46-s3-KEZ"/>
+                        <outlet property="AddButton" destination="lX8-dy-eok" id="npD-MY-5fg"/>
                         <outlet property="PickSubject" destination="OJ6-kL-iof" id="yIb-Ov-9s9"/>
                         <outlet property="Room" destination="CAJ-36-UyW" id="KZL-ev-vWQ"/>
                         <outlet property="Teacher" destination="mar-EF-zdo" id="vod-Wv-KIV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fh7-hQ-fLd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="teP-Er-ga8" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1696.5" y="238.5"/>
         </scene>
