@@ -81,6 +81,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var Fri6: UIButton!
     @IBOutlet weak var Fri7: UIButton!
     
+    @IBOutlet weak var Mon1L: UILabel!
+    @IBOutlet weak var Mon2L: UILabel!
+    @IBOutlet weak var Mon3L: UILabel!
+    @IBOutlet weak var Mon4L: UILabel!
+    @IBOutlet weak var Mon5L: UILabel!
+    
+    
+    
     var date = 0
     
     @IBAction func Mon1(sender: AnyObject) {
