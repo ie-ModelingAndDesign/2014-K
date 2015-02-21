@@ -127,142 +127,142 @@ class ViewController: UIViewController {
     var date = 0
     
     @IBAction func Mon1(sender: AnyObject) {
-        pushedButton("Mon1",week: "Mon")
+        pushedButton("Mon1",week: "Mon",label:Mon1L)
     }
     
     @IBAction func Mon2(sender: AnyObject) {
-        pushedButton("Mon2",week: "Mon")
+        pushedButton("Mon2",week: "Mon",label:Mon2L)
     }
     
     @IBAction func Mon3(sender: AnyObject) {
-        pushedButton("Mon3",week: "Mon")
+        pushedButton("Mon3",week: "Mon",label:Mon3L)
     }
 
     @IBAction func Mon4(sender: AnyObject) {
-        pushedButton("Mon4",week: "Mon")
+        pushedButton("Mon4",week: "Mon",label:Mon4L)
     }
     
     @IBAction func Mon5(sender: AnyObject) {
-        pushedButton("Mon5",week: "Mon")
+        pushedButton("Mon5",week: "Mon",label:Mon5L)
     }
     @IBAction func Mon6(sender: AnyObject) {
-        pushedButton("Mon6",week: "Mon")
+        pushedButton("Mon6",week: "Mon",label:Mon6L)
     }
     @IBAction func Mon7(sender: AnyObject) {
-        pushedButton("Mon7",week: "Mon")
+        pushedButton("Mon7",week: "Mon",label:Mon7L)
     }
     
     
     
     @IBAction func Tue1(sender: AnyObject) {
-        pushedButton("Tue1",week: "Tue")
+        pushedButton("Tue1",week: "Tue",label:Tue1L)
     }
     
     @IBAction func Tue2(sender: AnyObject) {
-        pushedButton("Tue2",week: "Tue")
+        pushedButton("Tue2",week: "Tue",label:Tue2L)
     }
 
     @IBAction func Tue3(sender: AnyObject) {
-        pushedButton("Tue3",week: "Tue")
+        pushedButton("Tue3",week: "Tue",label:Tue3L)
     }
     
     @IBAction func Tue4(sender: AnyObject) {
-    pushedButton("Tue4",week: "Tue")
+    pushedButton("Tue4",week: "Tue",label:Tue4L)
     }
 
     @IBAction func Tue5(sender: AnyObject) {
-    pushedButton("Tue5",week: "Tue")
+    pushedButton("Tue5",week: "Tue",label:Tue5L)
     }
     
 
     @IBAction func Tue6(sender: AnyObject) {
-        pushedButton("Tue6",week: "Tue")
+        pushedButton("Tue6",week: "Tue",label:Tue6L)
     }
     @IBAction func Tue7(sender: AnyObject) {
-        pushedButton("Tue7",week: "Tue")
+        pushedButton("Tue7",week: "Tue",label:Tue7L)
     }
     
     
     
     @IBAction func Wed1(sender: AnyObject) {
-     pushedButton("Wed1",week: "Wed")
+        pushedButton("Wed1",week: "Wed",label: Wed1L)
     }
     
     @IBAction func Wed2(sender: AnyObject) {
-     pushedButton("Wed2",week:"Wed")
+     pushedButton("Wed2",week:"Wed",label: Wed2L)
     }
     
     @IBAction func Wed3(sender: AnyObject) {
-     pushedButton("Wed3",week: "Wed")
+     pushedButton("Wed3",week: "Wed",label: Wed3L)
     }
     
     @IBAction func Wed4(sender: AnyObject) {
-     pushedButton("Wed4",week: "Wed")
+     pushedButton("Wed4",week: "Wed",label: Wed4L)
     }
     
     @IBAction func Wed5(sender: AnyObject) {
-     pushedButton("Wed5",week: "Wed")
+     pushedButton("Wed5",week: "Wed",label: Wed5L)
     }
   
     @IBAction func Wed6(sender: AnyObject) {
-        pushedButton("Wed6",week: "Wed")
+        pushedButton("Wed6",week: "Wed",label: Wed6L)
     }
     
     @IBAction func Wed7(sender: AnyObject) {
-        pushedButton("Wed7",week: "Wed")
+        pushedButton("Wed7",week: "Wed",label: Wed7L)
     }
     
     @IBAction func Thu1(sender: AnyObject) {
-        pushedButton("Thu1",week: "Thu")
+        pushedButton("Thu1",week: "Thu",label:Thu1L)
     }
     
     @IBAction func Thu2(sender: AnyObject) {
-     pushedButton("Thu2",week: "Thu")
+     pushedButton("Thu2",week: "Thu",label:Thu2L)
     }
     
     @IBAction func Thu3(sender: AnyObject) {
-     pushedButton("Thu3",week: "Thu")
+     pushedButton("Thu3",week: "Thu",label:Thu3L)
     }
 
     @IBAction func Thu4(sender: AnyObject) {
-     pushedButton("Thu4",week: "Thu")
+     pushedButton("Thu4",week: "Thu",label:Thu4L)
     }
     
     @IBAction func Thu5(sender: AnyObject) {
-     pushedButton("Thu5",week: "Thu")
+     pushedButton("Thu5",week: "Thu",label:Thu5L)
     }
     @IBAction func Thu6(sender: AnyObject) {
-        pushedButton("Thu6",week: "Thu")
+        pushedButton("Thu6",week: "Thu",label:Thu6L)
     }
     @IBAction func Thu7(sender: AnyObject) {
-        pushedButton("Thu7",week: "Thu")
+        pushedButton("Thu7",week: "Thu",label:Thu7L)
     }
     
     
     @IBAction func Fri1(sender: AnyObject) {
-     pushedButton("Fri1",week: "Fri")
+        pushedButton("Fri1",week: "Fri",label:Fri1L)
     }
     
     @IBAction func Fri2(sender: AnyObject) {
-     pushedButton("Fri2",week: "Fri")
+     pushedButton("Fri2",week: "Fri",label:Fri2L)
     }
     
     @IBAction func Fri3(sender: AnyObject) {
-     pushedButton("Fri3",week: "Fri")
+     pushedButton("Fri3",week: "Fri",label:Fri3L)
     }
     
     @IBAction func Fri4(sender: AnyObject) {
-     pushedButton("Fri4",week: "Fri")
+     pushedButton("Fri4",week: "Fri",label:Fri4L)
     }
     
     @IBAction func Fri5(sender: AnyObject) {
-     pushedButton("Fri5",week: "Fri")
+     pushedButton("Fri5",week: "Fri",label:Fri5L)
     }
     @IBAction func Fri6(sender: AnyObject) {
-        pushedButton("Fri6",week: "Fri")
+        pushedButton("Fri6",week: "Fri",label:Fri6L)
     }
     @IBAction func Fri7(sender: AnyObject) {
-        pushedButton("Fri7",week: "Fri")
+        pushedButton("Fri7",week: "Fri",label:Fri7L)
     }
     
     
@@ -382,9 +382,30 @@ class ViewController: UIViewController {
         println("俺は帰ってきた")
     }
     
-    func pushedButton(date:String,week:String){
-        println("\(date)")
-        println("\(week)")
+
+    
+    func pushedButton(date:String,week:String,label:UILabel){
+        println(date)
+        println(week)
+        if label.text == ""{
+            println("空です。")
+            //let myJsonSubject: UIViewController = JsonSubject()
+            //self.presentViewController(JsonSubject(), animated: true, completion: nil)
+            func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
+                if (segue.identifier == "SubjectSegue") {
+                    let AddSubject: JsonSubject = segue.destinationViewController as JsonSubject
+                    AddSubject.date = date
+                    AddSubject.week = week
+                    AddSubject.label = label
+                    println(date)
+                    println(week)
+                    println(label)
+                }
+                
+            }
+        }else{
+            println("からじゃないです。")
+        }
         
     }
 }

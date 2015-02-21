@@ -24,29 +24,35 @@ class JsonSubject:UIViewController,UIPickerViewDelegate, UIPickerViewDataSource 
     var RoomPick: [String] = []
     var UrlPick: [String] = []
     
+    var date:String = ""
+    var week:String = ""
+    var label: UILabel = UILabel()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         PickSubject.delegate = self
         PickSubject.dataSource = self
-        Subject()
+        println(week)
+        println(date)
+        Subject(week, date: date)
     }
     
     
-    func Subject(){
+    func Subject(week:String,date:String){
         if let file = NSBundle(forClass:AppDelegate.self).pathForResource("subject", ofType: "json") {
             let data = NSData(contentsOfFile: file)!
             let json = JSON(data: data)
-            for i in 0...1{
-                if let title = json["Mon"][0]["Mon1"][0]["Subjects"][i]["Subject"].string {
+            for i in 0...5{
+                if let title = json[week][0][date][0]["Subjects"][i]["Subject"].string {
                     SubjectPick.append(title)
                 }
-                if let teacher = json["Mon"][0]["Mon1"][0]["Subjects"][i]["Teacher"].string {
+                if let teacher = json[week][0][date][0]["Subjects"][i]["Teacher"].string {
                     TeacherPick.append(teacher)
                 }
-                if let room = json["Mon"][0]["Mon1"][0]["Subjects"][i]["Room"].string {
+                if let room = json[week][0][date][0]["Subjects"][i]["Room"].string {
                     RoomPick.append(room)
                 }
-                if let url = json["Mon"][0]["Mon1"][0]["Subjects"][i]["Url"].string {
+                if let url = json[week][0][date][0]["Subjects"][i]["Url"].string {
                     UrlPick.append(url)
                 }
             }
