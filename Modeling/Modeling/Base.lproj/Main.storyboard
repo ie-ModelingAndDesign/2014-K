@@ -180,7 +180,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="The2:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Vnv-ac-zwr"/>
+                                    <action selector="Tue2:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="xJ4-EP-Kcc"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="Wed2" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dUc-VF-R8T">
@@ -246,7 +246,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="The3:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="uAd-ab-14m"/>
+                                    <action selector="Tue3:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="N3y-i9-oUJ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="Wed3" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="71C-aU-Q5i">
@@ -312,7 +312,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="The4:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="4c5-Df-FYp"/>
+                                    <action selector="Tue4:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="p6s-e5-dmS"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="Wed4" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c5a-T3-WDk">
@@ -368,17 +368,6 @@
                                 </state>
                                 <connections>
                                     <action selector="Mon5:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="QKM-uw-0DJ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="Tue5" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="33g-xp-sLg">
-                                <rect key="frame" x="126" y="406" width="60" height="65"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                </state>
-                                <connections>
-                                    <action selector="The5:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Dvo-bQ-K9x"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="Wed5" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c4O-1g-Vgy">
@@ -563,6 +552,17 @@
                                     <action selector="Fri7:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="caj-lH-1Lm"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="Tue5" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="33g-xp-sLg">
+                                <rect key="frame" x="126" y="406" width="60" height="65"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="Tue5:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="2Xp-IA-EZb"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                     </view>
@@ -612,8 +612,8 @@
                         <outlet property="Tue1" destination="E5l-sD-wZw" id="pwG-6j-Tex"/>
                         <outlet property="Tue2" destination="z5r-hl-VGE" id="4Xv-yx-iDa"/>
                         <outlet property="Tue3" destination="KZs-ea-3UD" id="1lV-hC-sZL"/>
-                        <outlet property="Tue4" destination="x1e-3Z-EBm" id="MiO-f4-rnW"/>
-                        <outlet property="Tue5" destination="33g-xp-sLg" id="h3o-Xn-3yG"/>
+                        <outlet property="Tue4" destination="x1e-3Z-EBm" id="71d-hm-8fh"/>
+                        <outlet property="Tue5" destination="33g-xp-sLg" id="mN6-jK-Vcf"/>
                         <outlet property="Tue6" destination="gVn-GS-dqS" id="8Um-7n-1zY"/>
                         <outlet property="Tue7" destination="sHm-sf-3Ob" id="Yv4-8a-Rtr"/>
                         <outlet property="Two" destination="SfQ-ZO-Nwb" id="X4l-9T-T0P"/>

@@ -115,21 +115,20 @@ class ViewController: UIViewController {
      println("火1")
     }
     
-    @IBAction func The2(sender: AnyObject) {
-     println("火2")
+    @IBAction func Tue2(sender: AnyObject) {
+    }
+
+    @IBAction func Tue3(sender: AnyObject) {
     }
     
-    @IBAction func The3(sender: AnyObject) {
-     println("火3")
+    @IBAction func Tue4(sender: AnyObject) {
+    }
+
+    @IBAction func Tue5(sender: AnyObject) {
     }
     
-    @IBAction func The4(sender: AnyObject) {
-     println("火4")
-    }
     
-    @IBAction func The5(sender: AnyObject) {
-     println("火5")
-    }
+
     @IBAction func Tue6(sender: AnyObject) {
         println("火6")
     }
