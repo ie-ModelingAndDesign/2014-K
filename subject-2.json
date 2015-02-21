@@ -1,0 +1,424 @@
+{
+    "Mon": [
+        {
+            "Mon1": [
+                {
+                    "Subjects": [
+                        {
+                            "Room": "共通3-205", 
+                            "Subject": "ドイツ語入門1", 
+                            "Teacher": "片岡満寿夫", 
+                            "Url": "https://goo.gl/maps/15LTu"
+                        }
+                    ]
+                }
+            ], 
+            "Mon2": [
+                {
+                    "Subjects": [
+                        {
+                            "Room": "工2-313", 
+                            "Subject": "工業数学1", 
+                            "Teacher": "與儀達裕", 
+                            "Url": "https://goo.gl/maps/h2876"
+                        }, 
+                        {
+                            "Room": "工1-322", 
+                            "Subject": "情報英語1", 
+                            "Teacher": "比嘉健伸", 
+                            "Url": "https://goo.gl/maps/mdCHO"
+                        }
+                    ]
+                }
+            ], 
+            "Mon3": [
+                {
+                    "Subjects": [
+                        {
+                            "Room": "工1-321", 
+                            "Subject": "プログラミング2", 
+                            "Teacher": "山田孝治", 
+                            "Url": "https://goo.gl/maps/mdCHO"
+                        }, 
+                        {
+                            "Room": "工1-403", 
+                            "Subject": "情報工学実験2", 
+                            "Teacher": "全教官", 
+                            "Url": "https://goo.gl/maps/mdCHO"
+                        }, 
+                        {
+                            "Room": "工2-313", 
+                            "Subject": "自然言語工学", 
+                            "Teacher": "高良富夫", 
+                            "Url": "https://goo.gl/maps/h2876"
+                        }
+                    ]
+                }
+            ], 
+            "Mon4": [
+                {
+                    "Subjects": [
+                        {
+                            "Room": "工1-321", 
+                            "Subject": "ソフトウェア演習2", 
+                            "Teacher": "谷口裕治", 
+                            "Url": "https://goo.gl/maps/mdCHO"
+                        }, 
+                        {
+                            "Room": "工1-403", 
+                            "Subject": "情報工学実験2", 
+                            "Teacher": "全教官", 
+                            "Url": "https://goo.gl/maps/mdCHO"
+                        }
+                    ]
+                }
+            ], 
+            "Mon5": [
+                {
+                    "Subjects": [
+                        {
+                            "Room": "工2-313", 
+                            "Subject": "Frontiers of Engineering", 
+                            "Teacher": "名嘉村盛和", 
+                            "Url": "https://goo.gl/maps/h2876"
+                        }
+                    ]
+                }
+            ]
+        }
+    ], 
+    "Tue": [
+        {
+            "Tue1": [
+                {
+                    "Subjects": [
+                        {
+                            "Room": "工1-321", 
+                            "Subject": "教育実践演習", 
+                            "Teacher": "岡崎威生", 
+                            "Url": "https://goo.gl/maps/mdCHO"
+                        }
+                    ]
+                }
+            ], 
+            "Tue2": [
+                {
+                    "Subjects": [
+                        {
+                            "Room": "総情センター2F", 
+                            "Subject": "VLSI設計", 
+                            "Teacher": "和田知久", 
+                            "Url": "https://goo.gl/maps/bW3k5"
+                        }, 
+                        {
+                            "Room": "工1-321", 
+                            "Subject": "ヒューマン　コンピュータ　インタラクション", 
+                            "Teacher": "赤嶺有平", 
+                            "Url": "https://goo.gl/maps/mdCHO"
+                        }
+                    ]
+                }
+            ], 
+            "Tue3": [
+                {
+                    "Subjects": [
+                        {
+                            "Room": "工1-221", 
+                            "Subject": "基礎数学演習2", 
+                            "Teacher": "宮城隼夫", 
+                            "Url": "https://goo.gl/maps/mdCHO"
+                        }, 
+                        {
+                            "Room": "工1-321", 
+                            "Subject": "オペレーテイングシステム", 
+                            "Teacher": "河野真治", 
+                            "Url": "https://goo.gl/maps/mdCHO"
+                        }, 
+                        {
+                            "Room": "工1-322", 
+                            "Subject": "ディジタル制御論", 
+                            "Teacher": "玉城史朗", 
+                            "Url": "https://goo.gl/maps/mdCHO"
+                        }
+                    ]
+                }
+            ], 
+            "Tue4": [
+                {
+                    "Subjects": [
+                        {
+                            "Room": "工1-406", 
+                            "Subject": "情報工学実験4", 
+                            "Teacher": "全教官", 
+                            "Url": "https://goo.gl/maps/mdCHO"
+                        }
+                    ]
+                }
+            ], 
+            "Tue5": [
+                {
+                    "Subjects": [
+                        {
+                            "Room": "共通2-205", 
+                            "Subject": "微分積分学入門2", 
+                            "Teacher": "松本修一", 
+                            "Url": "https://goo.gl/maps/15LTu"
+                        }, 
+                        {
+                            "Room": "工1-322", 
+                            "Subject": "人口知能", 
+                            "Teacher": "遠藤聡志", 
+                            "Url": "https://goo.gl/maps/mdCHO"
+                        }, 
+                        {
+                            "Room": "工1-509", 
+                            "Subject": "技能英語プレゼンテーション", 
+                            "Teacher": "アシャリフ・M.R", 
+                            "Url": "https://goo.gl/maps/mdCHO"
+                        }
+                    ]
+                }
+            ]
+        }
+    ], 
+    "Wed": [
+        {
+            "Wed2": [
+                {
+                    "Subjects": [
+                        {
+                            "Room": "工1-322", 
+                            "Subject": "情報理論", 
+                            "Teacher": "姜東植", 
+                            "Url": "https://goo.gl/maps/mdCHO"
+                        }, 
+                        {
+                            "Room": "工1-321", 
+                            "Subject": "情報創造工学", 
+                            "Teacher": "大久保秀人", 
+                            "Url": "https://goo.gl/maps/mdCHO"
+                        }
+                    ]
+                }
+            ],
+            "Wed3": [
+                {
+                    "Subjects": [
+                        {
+                            "Room": "共通2-104", 
+                            "Subject": "微分積分学ST2", 
+                            "Teacher": "前田高士", 
+                            "Url": "https://goo.gl/maps/15LTu"
+                        }
+                    ]
+                }
+            ],
+            "Wed5": [
+                {
+                    "Subjects": [
+                        {
+                            "Room": "工1-401", 
+                            "Subject": "プログラミング4", 
+                            "Teacher": "河野真治", 
+                            "Url": "https://goo.gl/maps/mdCHO"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "Thu": [
+        {
+            "Thu1": [
+                {
+                    "Subjects": [
+                        {
+                            "Room": "工1-321", 
+                            "Subject": "数値解析", 
+                            "Teacher": "岡崎威生", 
+                            "Url": "https://goo.gl/maps/mdCHO"
+                        },
+                        {
+                            "Room": "工1-321", 
+                            "Subject": "情報科学教育法A", 
+                            "Teacher": "岡崎威生", 
+                            "Url": "https://goo.gl/maps/mdCHO"
+                        }
+                    ]
+                }
+            ],
+            "Thu2": [
+                {
+                    "Subjects": [
+                        {
+                            "Room": "共通教育棟", 
+                            "Subject": "英語購読演習中級", 
+                            "Teacher": "指定クラス", 
+                            "Url": "https://goo.gl/maps/15LTu"
+                        },
+                        {
+                            "Room": "工1-321", 
+                            "Subject": "モデリングと設計", 
+                            "Teacher": "名嘉村盛和", 
+                            "Url": "https://goo.gl/maps/mdCHO"
+                        }
+                    ]
+                }
+            ],
+            "Thu3": [
+                {
+                    "Subjects": [
+                        {
+                            "Room": "工1-321", 
+                            "Subject": "マルチメディア情報処理", 
+                            "Teacher": "長山格", 
+                            "Url": "https://goo.gl/maps/mdCHO"
+                        }
+                    ]
+                }
+            ],
+            "Thu4": [
+                {
+                    "Subjects": [
+                        {
+                            "Room": "工2-313", 
+                            "Subject": "情報数学2", 
+                            "Teacher": "玉城史朗", 
+                            "Url": "https://goo.gl/maps/h2876"
+                        },
+                        {
+                            "Room": "工1-321", 
+                            "Subject": "情報ネットワーク2", 
+                            "Teacher": "長田智和", 
+                            "Url": "https://goo.gl/maps/mdCHO"
+                        }
+                    ]
+                }
+            ],
+            "Thu5": [
+                {
+                    "Subjects": [
+                        {
+                            "Room": "工1-321", 
+                            "Subject": "データベースシステム", 
+                            "Teacher": "長山格", 
+                            "Url": "https://goo.gl/maps/mdCHO"
+                        },
+                        {
+                            "Room": "工1-406", 
+                            "Subject": "情報工学実験4", 
+                            "Teacher": "全教官", 
+                            "Url": "https://goo.gl/maps/mdCHO"
+                        },
+                        {
+                            "Room": "工1-509", 
+                            "Subject": "情報英語プレゼンテーション", 
+                            "Teacher": "アシャリフ・M.R", 
+                            "Url": "https://goo.gl/maps/mdCHO"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "Fri": [
+        {
+            "Fri1": [
+                {
+                    "Subjects": [
+                        {
+                            "Room": "工1-221", 
+                            "Subject": "計算機アーキテクチャー", 
+                            "Teacher": "和田知久", 
+                            "Url": "https://goo.gl/maps/mdCHO"
+                        },
+                        {
+                            "Room": "工1-321", 
+                            "Subject": "情報科学教育法A", 
+                            "Teacher": "岡崎威生", 
+                            "Url": "https://goo.gl/maps/mdCHO"
+                        }
+                    ]
+                }
+            ],
+            "Fri2": [
+                {
+                    "Subjects": [
+                        {
+                            "Room": "共通教育棟", 
+                            "Subject": "物理学2", 
+                            "Teacher": "指定クラス", 
+                            "Url": "https://goo.gl/maps/15LTu"
+                        },
+                        {
+                            "Room": "共通教育棟", 
+                            "Subject": "物理学入門2", 
+                            "Teacher": "指定クラス", 
+                            "Url": "https://goo.gl/maps/15LTu"
+                        },
+                        {
+                            "Room": "工1-322", 
+                            "Subject": "知能ロボット", 
+                            "Teacher": "山田孝治", 
+                            "Url": "https://goo.gl/maps/mdCHO"
+                        }
+                    ]
+                }
+            ],
+            "Fri3": [
+                {
+                    "Subjects": [
+                        {
+                            "Room": "工1-406", 
+                            "Subject": "情報工学実験2", 
+                            "Teacher": "全教官", 
+                            "Url": "https://goo.gl/maps/mdCHO"
+                        },
+                        {
+                            "Room": "工1-321", 
+                            "Subject": "シミュレーション", 
+                            "Teacher": "アシャリフ・M.R", 
+                            "Url": "https://goo.gl/maps/mdCHO"
+                        },
+                        {
+                            "Room": "工1-322", 
+                            "Subject": "アルゴリズムとデータ構造", 
+                            "Teacher": "名嘉村盛和", 
+                            "Url": "https://goo.gl/maps/mdCHO"
+                        }
+                    ]
+                }
+            ],
+            "Fri4": [
+                {
+                    "Subjects": [
+                        {
+                            "Room": "工1-406", 
+                            "Subject": "情報工学実験2", 
+                            "Teacher": "全教官", 
+                            "Url": "https://goo.gl/maps/mdCHO"
+                        },
+                        {
+                            "Room": "工1-321", 
+                            "Subject": "コンパイラ構成論", 
+                            "Teacher": "河野真治", 
+                            "Url": "https://goo.gl/maps/mdCHO"
+                        }
+                    ]
+                }
+            ],
+            "Fri5": [
+                {
+                    "Subjects": [
+                        {
+                            "Room": "総情センター2F第3自習室", 
+                            "Subject": "情報処理技術論(ソフトウェア基礎2と合同)", 
+                            "Teacher": "舟木慶一", 
+                            "Url": "https://goo.gl/maps/bW3k5"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
