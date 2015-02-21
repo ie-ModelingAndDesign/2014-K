@@ -1,0 +1,32 @@
+{
+    "Mon": [
+        {
+            "Mon1": [
+                {
+                    "Subjects": [
+                        {
+                            "Room": "共通3-205", 
+                            "Subject": "ドイツ語入門1", 
+                            "Teacher": "片岡満寿夫", 
+                            "Url": "dasdhajkshdjkashkdhajk"
+                        },
+                        {
+                            "Room": "共通3-205",
+                            "Subject": "ドイツ語入門1",
+                            "Teacher": "片岡満寿夫",
+                            "Url": "dasdhajkshdjkashkdhajk"
+                        }
+                    ]
+                }
+            ], 
+            "Mon2": [
+                {
+                    "Subjects": [
+                        {}
+                    ]
+                }
+            ]
+        }
+    ], 
+    "Tue": []
+}

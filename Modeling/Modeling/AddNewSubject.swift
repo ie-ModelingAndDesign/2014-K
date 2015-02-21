@@ -75,9 +75,6 @@ class AddNewSubject: UIViewController,UIPickerViewDataSource,UIPickerViewDelegat
         let titleEntity: NSEntityDescription! = NSEntityDescription.entityForName("TimeTable", inManagedObjectContext: titleContext)
         var newData = TimeTable(entity: titleEntity, insertIntoManagedObjectContext: titleContext)
         newData.title = SubjectField.text
-        
-        
-        
     }
     //ユーザー定義関数readDataの中身
     func readData(){

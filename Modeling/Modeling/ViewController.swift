@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    var matrix:[[String]]=[["","","","","","",""],["","","","","","",""],["","","","","","",""],["","","","","","",""],["","","","","","",""],["","","","","","",""]]
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -78,9 +81,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var Fri6: UIButton!
     @IBOutlet weak var Fri7: UIButton!
     
+    var date = 0
     
     @IBAction func Mon1(sender: AnyObject) {
-    println("月1")
+        pushedButton("Mon1")
     }
     
     @IBAction func Mon2(sender: AnyObject) {
@@ -331,6 +335,11 @@ class ViewController: UIViewController {
     }
     @IBAction func AddButton(segue: UIStoryboardSegue){
         println("俺は帰ってきた")
+    }
+    
+    func pushedButton(date:String){
+        println("\(date)")
+        
     }
 }
 
