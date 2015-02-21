@@ -86,6 +86,41 @@ class ViewController: UIViewController {
     @IBOutlet weak var Mon3L: UILabel!
     @IBOutlet weak var Mon4L: UILabel!
     @IBOutlet weak var Mon5L: UILabel!
+    @IBOutlet weak var Mon6L: UILabel!
+    @IBOutlet weak var Mon7L: UILabel!
+    
+    @IBOutlet weak var Tue1L: UILabel!
+    @IBOutlet weak var Tue2L: UILabel!
+    @IBOutlet weak var Tue3L: UILabel!
+    @IBOutlet weak var Tue4L: UILabel!
+    @IBOutlet weak var Tue5L: UILabel!
+    @IBOutlet weak var Tue6L: UILabel!
+    @IBOutlet weak var Tue7L: UILabel!
+    
+    @IBOutlet weak var Wed1L: UILabel!
+    @IBOutlet weak var Wed2L: UILabel!
+    @IBOutlet weak var Wed3L: UILabel!
+    @IBOutlet weak var Wed4L: UILabel!
+    @IBOutlet weak var Wed5L: UILabel!
+    @IBOutlet weak var Wed6L: UILabel!
+    @IBOutlet weak var Wed7L: UILabel!
+    
+    @IBOutlet weak var Thu1L: UILabel!
+    @IBOutlet weak var Thu2L: UILabel!
+    @IBOutlet weak var Thu3L: UILabel!
+    @IBOutlet weak var Thu4L: UILabel!
+    @IBOutlet weak var Thu5L: UILabel!
+    @IBOutlet weak var Thu6L: UILabel!
+    @IBOutlet weak var Thu7L: UILabel!
+    
+    @IBOutlet weak var Fri1L: UILabel!
+    @IBOutlet weak var Fri2L: UILabel!
+    @IBOutlet weak var Fri3L: UILabel!
+    @IBOutlet weak var Fri4L: UILabel!
+    @IBOutlet weak var Fri5L: UILabel!
+    @IBOutlet weak var Fri6L: UILabel!
+    @IBOutlet weak var Fri7L: UILabel!
+    
     
     
     

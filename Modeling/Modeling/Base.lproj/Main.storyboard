@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Kom-My-Yb5">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Kom-My-Yb5">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
@@ -821,12 +821,19 @@
                         <outlet property="Four" destination="AXj-Vs-ocw" id="g2C-v6-pzU"/>
                         <outlet property="Fri" destination="2Ei-el-Zyk" id="4un-V6-NxT"/>
                         <outlet property="Fri1" destination="knr-Ta-ETU" id="ajt-GB-6M6"/>
+                        <outlet property="Fri1L" destination="60Y-tD-bHZ" id="GJS-pH-J0M"/>
                         <outlet property="Fri2" destination="FVY-h1-Kwp" id="YoI-pp-YYg"/>
+                        <outlet property="Fri2L" destination="isl-xV-iuN" id="4To-IN-5Hs"/>
                         <outlet property="Fri3" destination="y9l-Cu-1eD" id="kuB-6q-6Ip"/>
+                        <outlet property="Fri3L" destination="UdB-eA-TnL" id="Wia-08-Gl6"/>
                         <outlet property="Fri4" destination="BFo-6X-wZK" id="UKE-MY-coA"/>
+                        <outlet property="Fri4L" destination="bik-Yl-M5u" id="eMo-bw-tbl"/>
                         <outlet property="Fri5" destination="fAg-K6-gI9" id="el4-Yw-eTM"/>
+                        <outlet property="Fri5L" destination="BmN-YW-JCr" id="HfR-mv-ZYg"/>
                         <outlet property="Fri6" destination="R50-2I-lPq" id="sLf-cB-Pyw"/>
+                        <outlet property="Fri6L" destination="8gy-W3-6Gi" id="kBG-7u-ycX"/>
                         <outlet property="Fri7" destination="6Ia-Ia-rKy" id="fBX-So-0Qy"/>
+                        <outlet property="Fri7L" destination="Pvf-oZ-16i" id="lbh-2r-OXb"/>
                         <outlet property="Mon" destination="Eth-1X-Oi5" id="yCe-Qu-Gub"/>
                         <outlet property="Mon1L" destination="R1M-pW-RBn" id="iAE-Gm-San"/>
                         <outlet property="Mon2" destination="gdX-d4-uf8" id="Wae-7d-Mkh"/>
@@ -838,7 +845,9 @@
                         <outlet property="Mon5" destination="P7l-DE-CWa" id="Mbv-bx-Lhd"/>
                         <outlet property="Mon5L" destination="kPY-am-3rl" id="2vA-rf-VCJ"/>
                         <outlet property="Mon6" destination="KQK-SI-OXg" id="MB5-15-Ccu"/>
+                        <outlet property="Mon6L" destination="4JJ-jj-WVF" id="1qn-ZY-Dda"/>
                         <outlet property="Mon7" destination="eg0-ym-RJA" id="6SA-XD-4Dk"/>
+                        <outlet property="Mon7L" destination="yIl-wb-g5V" id="zJA-u2-nMr"/>
                         <outlet property="One" destination="sbq-eI-AH5" id="SOk-6q-aLp"/>
                         <outlet property="Segue" destination="GFL-Tn-Hul" id="AGf-0w-hcX"/>
                         <outlet property="Seven" destination="x3Y-3L-00w" id="ps7-4c-3Gz"/>
@@ -846,29 +855,50 @@
                         <outlet property="Three" destination="Qb5-nx-ppu" id="4QO-rx-Pqb"/>
                         <outlet property="Thu" destination="W26-km-cBl" id="iyL-5K-pQS"/>
                         <outlet property="Thu1" destination="upx-K6-qdo" id="G5h-pz-2Op"/>
+                        <outlet property="Thu1L" destination="biB-7C-jFF" id="NL6-IZ-7Ln"/>
                         <outlet property="Thu2" destination="GRd-sV-8P4" id="Vgb-e0-MJ7"/>
+                        <outlet property="Thu2L" destination="lse-nA-2kY" id="FtE-z9-YSY"/>
                         <outlet property="Thu3" destination="szl-L2-Xym" id="2iB-OX-8an"/>
+                        <outlet property="Thu3L" destination="MG5-JA-jWC" id="9Ti-hW-kcl"/>
                         <outlet property="Thu4" destination="zqE-Pk-i8C" id="Zhe-8t-Kyh"/>
+                        <outlet property="Thu4L" destination="sMp-OB-056" id="TxC-pY-281"/>
                         <outlet property="Thu5" destination="pU6-sM-QMM" id="vsQ-rx-ya1"/>
+                        <outlet property="Thu5L" destination="MHQ-Ix-Dxu" id="eLq-W2-avl"/>
                         <outlet property="Thu6" destination="8h5-7Q-Jay" id="HQQ-eJ-ecB"/>
+                        <outlet property="Thu6L" destination="Zl3-7U-gc6" id="zNT-DD-wil"/>
                         <outlet property="Thu7" destination="bTK-Cz-YPc" id="CB5-BV-fdS"/>
+                        <outlet property="Thu7L" destination="aHR-r6-YSY" id="KP9-52-xJ6"/>
                         <outlet property="Tue" destination="nKk-gX-oX7" id="5GD-zC-iy8"/>
                         <outlet property="Tue1" destination="E5l-sD-wZw" id="pwG-6j-Tex"/>
+                        <outlet property="Tue1L" destination="XMG-ns-ub1" id="fpx-je-Ybq"/>
                         <outlet property="Tue2" destination="z5r-hl-VGE" id="4Xv-yx-iDa"/>
+                        <outlet property="Tue2L" destination="FMp-J7-AqF" id="XGj-Hb-dFT"/>
                         <outlet property="Tue3" destination="KZs-ea-3UD" id="1lV-hC-sZL"/>
+                        <outlet property="Tue3L" destination="Aoo-LU-M4y" id="BoH-qy-9iW"/>
                         <outlet property="Tue4" destination="x1e-3Z-EBm" id="71d-hm-8fh"/>
+                        <outlet property="Tue4L" destination="k0l-dK-GDg" id="KZA-Ms-wAz"/>
                         <outlet property="Tue5" destination="33g-xp-sLg" id="mN6-jK-Vcf"/>
+                        <outlet property="Tue5L" destination="8Zk-k6-MFV" id="bYn-PS-myi"/>
                         <outlet property="Tue6" destination="gVn-GS-dqS" id="8Um-7n-1zY"/>
+                        <outlet property="Tue6L" destination="kg9-X3-ACA" id="kiE-sy-BmK"/>
                         <outlet property="Tue7" destination="sHm-sf-3Ob" id="Yv4-8a-Rtr"/>
+                        <outlet property="Tue7L" destination="TJA-g1-0Ou" id="YCF-5h-3wd"/>
                         <outlet property="Two" destination="SfQ-ZO-Nwb" id="X4l-9T-T0P"/>
                         <outlet property="Wed" destination="flt-dS-fSp" id="2s4-ac-hmx"/>
                         <outlet property="Wed1" destination="cIh-ih-5vQ" id="Iwb-96-lCY"/>
+                        <outlet property="Wed1L" destination="eNn-oI-YQc" id="2cV-ja-S4g"/>
                         <outlet property="Wed2" destination="dUc-VF-R8T" id="ymg-ty-B94"/>
+                        <outlet property="Wed2L" destination="afy-YI-IeT" id="gCN-Yv-MXj"/>
                         <outlet property="Wed3" destination="71C-aU-Q5i" id="hhT-Za-LcC"/>
+                        <outlet property="Wed3L" destination="Wv1-lK-Rfw" id="n0a-o7-zYC"/>
                         <outlet property="Wed4" destination="c5a-T3-WDk" id="t1T-w9-Pss"/>
+                        <outlet property="Wed4L" destination="SL3-ZJ-a1b" id="pVd-Uo-a3O"/>
                         <outlet property="Wed5" destination="c4O-1g-Vgy" id="54k-M1-bZv"/>
+                        <outlet property="Wed5L" destination="sA1-yb-VR3" id="vGW-hh-7t7"/>
                         <outlet property="Wed6" destination="Qas-0Q-gU5" id="k1R-XP-gC9"/>
+                        <outlet property="Wed6L" destination="Ldv-nq-zc3" id="pBk-oE-0zg"/>
                         <outlet property="Wed7" destination="UO3-SR-fiw" id="CDw-hd-lBL"/>
+                        <outlet property="Wed7L" destination="NpJ-WY-bhn" id="Wx3-Wv-bVK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
