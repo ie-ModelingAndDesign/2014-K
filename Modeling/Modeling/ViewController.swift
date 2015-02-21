@@ -31,9 +31,10 @@ class ViewController: UIViewController {
     var Teacher = Dictionary<String,String>()
     var Room = Dictionary<String,String>()
     var Url = Dictionary<String,String>()
-    var Label = Dictionary<String,UILabel>()
     
     var info = ""
+    
+    var Blanklabel = UILabel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -424,10 +425,12 @@ class ViewController: UIViewController {
             let myAction_2 = UIAlertAction(title: "Delete", style: UIAlertActionStyle.Destructive, handler: {
                 (action: UIAlertAction!) in
                 println("delete")
+                label.text = ""
                 self.Subject.removeValueForKey(date)
                 self.Teacher.removeValueForKey(date)
                 self.Room.removeValueForKey(date)
                 self.Url.removeValueForKey(date)
+
             })
             
             let myAction_3 = UIAlertAction(title: "Cancel", style: UIAlertActionStyle.Cancel, handler: {
