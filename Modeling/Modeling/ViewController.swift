@@ -10,8 +10,6 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var matrix:[[String]]=[["","","","","","",""],["","","","","","",""],["","","","","","",""],["","","","","","",""],["","","","","","",""],["","","","","","",""]]
-    
     var selectedDate  = ""
     var selectedWeek  = ""
     var selectedLabel = UILabel()
@@ -20,21 +18,11 @@ class ViewController: UIViewController {
     var selectedRoom = ""
     var selectedUrl = ""
     
-    var Mon2Subject = ""
-    var Mon3Subject = ""
-    var Mon4Subject = ""
-    var Mon5Subject = ""
-    var Mon6Subject = ""
-    var Mon7Subject = ""
-    
     var Subject = Dictionary<String,String>()
     var Teacher = Dictionary<String,String>()
     var Room = Dictionary<String,String>()
     var Url = Dictionary<String,String>()
     
-    var info = ""
-    
-    var Blanklabel = UILabel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
