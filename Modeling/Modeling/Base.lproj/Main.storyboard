@@ -26,19 +26,7 @@
                             </tabBar>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dTg-Zz-Msp">
                                 <rect key="frame" x="0.0" y="623" width="375" height="44"/>
-                                <items>
-                                    <barButtonItem title="プリセット" id="SE9-FY-WgM"/>
-                                    <barButtonItem width="204" style="plain" systemItem="fixedSpace" id="XDn-pm-l69"/>
-                                    <barButtonItem style="plain" id="1IL-Z6-jVN">
-                                        <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3SX-7c-oew">
-                                            <rect key="frame" x="168" y="7" width="57" height="30"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <state key="normal" title="News-ie">
-                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                            </state>
-                                        </button>
-                                    </barButtonItem>
-                                </items>
+                                <items/>
                             </toolbar>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="Blank" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8rq-vF-Zur">
                                 <rect key="frame" x="0.0" y="82" width="60" height="47"/>
@@ -968,92 +956,6 @@
                 <exit id="teP-Er-ga8" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1696.5" y="238.5"/>
-        </scene>
-        <!--Add New Subject-->
-        <scene sceneID="Mi4-0g-tIY">
-            <objects>
-                <viewController id="rqL-WP-KXV" customClass="AddNewSubject" customModule="Modeling" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="6rW-4f-80J"/>
-                        <viewControllerLayoutGuide type="bottom" id="jxu-Pw-Ubr"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Hh7-qa-9NF">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="時間の入力" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c7t-bl-rZe">
-                                <rect key="frame" x="16" y="78" width="85" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="時間の選択" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K4n-tg-Q83">
-                                <rect key="frame" x="16" y="187" width="85" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="T9R-Vu-UqU">
-                                <rect key="frame" x="16" y="216" width="333" height="162"/>
-                                <connections>
-                                    <outlet property="dataSource" destination="rqL-WP-KXV" id="aTk-Qa-ET0"/>
-                                    <outlet property="delegate" destination="rqL-WP-KXV" id="Z4e-zn-654"/>
-                                </connections>
-                            </pickerView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ここに教科名を入力してください" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Nxa-hc-GVp">
-                                <rect key="frame" x="16" y="107" width="333" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
-                                <connections>
-                                    <action selector="SubjectField:" destination="rqL-WP-KXV" eventType="editingDidEndOnExit" id="coh-6c-MQO"/>
-                                </connections>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cMM-dr-ejH">
-                                <rect key="frame" x="167" y="386" width="30" height="30"/>
-                                <state key="normal" title="追加">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="AddButton:" destination="rqL-WP-KXV" eventType="touchUpInside" id="20x-Nf-YVD"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Am2-uc-Zwi">
-                                <rect key="frame" x="167" y="432" width="30" height="30"/>
-                                <state key="normal" title="戻る">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="Back:" destination="rqL-WP-KXV" eventType="touchUpInside" id="AWu-B6-Y4R"/>
-                                    <segue destination="1C3-Iy-hPK" kind="unwind" unwindAction="Segue:sender:" id="Gyu-Cb-82k"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IER-dp-gKU">
-                                <rect key="frame" x="52" y="511" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="IER-dp-gKU"/>
-                            </mask>
-                        </variation>
-                    </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                    <connections>
-                        <outlet property="AddButton" destination="cMM-dr-ejH" id="BxY-gg-5dO"/>
-                        <outlet property="Back" destination="Am2-uc-Zwi" id="sql-gq-3im"/>
-                        <outlet property="DatePick" destination="T9R-Vu-UqU" id="v1N-H2-9A5"/>
-                        <outlet property="SubjectField" destination="Nxa-hc-GVp" id="AFl-OL-EFl"/>
-                        <outletCollection property="DatePick" destination="T9R-Vu-UqU" id="Q7W-gt-hdt"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="JxF-lJ-goE" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="1C3-Iy-hPK" userLabel="Exit" sceneMemberID="exit"/>
-            </objects>
-            <point key="canvasLocation" x="1202.5" y="1015.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="BH3-Cv-9nM">
