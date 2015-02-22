@@ -420,6 +420,10 @@ class ViewController: UIViewController {
             let myAction_1 = UIAlertAction(title: "Map", style: UIAlertActionStyle.Default, handler: {
                 (action: UIAlertAction!) in
                 println("Hello")
+                let MapUrl = NSURL(string: self.Url[date]!)
+                if UIApplication.sharedApplication().canOpenURL(MapUrl!){
+                    UIApplication.sharedApplication().openURL(MapUrl!)
+                }
             })
             
             let myAction_2 = UIAlertAction(title: "Delete", style: UIAlertActionStyle.Destructive, handler: {
